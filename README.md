@@ -1,10 +1,13 @@
 # RAVEN: Realtime Accessibility in Virtual ENvironments for Blind and Low-vision People
+
+<img width="2317" height="619" alt="A system workflow. On the left, there is a screenshot of a game scene with some text above the table. An image of a BLV user is above this image, pointing to a textbox saying ``Make the sign with the text much bigger''. The system workflow is shown in the middle, taking in the scene objects and user prompt through the system process. The compiled change and text output result in the image on the right, with the text to speech module reading out ``The {Park Sign} Object is now much bigger.'' and change is reflected in the screenshot of the scene." src="https://github.com/user-attachments/assets/375f9d14-5355-4b81-92f9-025475297fcf" />
+
 [Xinyun Cao](https://xinyun-cao.github.io/), [Kexin Phyllis Ju](https://www.phyllisju.com/), [Chenglin Li](https://chenglinli.com/), [Venkatesh Potluri](https://venkateshpotluri.me/), [Dhruv Jain](https://web.eecs.umich.edu/~profdj/)
 
 See our [preprint](https://doi.org/10.48550/arXiv.2510.06573) for more details. Full publication link coming soon!
 
 ## Introduction
-This is the opensourced artifact of RAVEN: Realtime Accessibility in Virtual ENvironments for Blind and Low-Vision People. RAVEN is a system developed in Unity that enables BLV users to issue queries and modification prompts to improve the runtime accessibility of 3D scenes. This repo gives developers instructions to download a Unity starter project that has the full RAVEN setup. Developers can then modify the system or incorporate RAVEN into their own projects.
+This is the opensourced artifact of RAVEN: Realtime Accessibility in Virtual ENvironments for Blind and Low-Vision People. RAVEN is a system developed in Unity that enables BLV users to issue queries and modification prompts to improve the accessibility of 3D scenes in realtime. This repo gives developers instructions to download a Unity starter project that has the full RAVEN setup. Developers can then modify the system or incorporate RAVEN into their own projects.
 
 (**We welcome any questions, comments, or suggestions! Please provide them by emailing the first author, Xinyun Cao, at xinyunc@umich.edu directly.**)<br/>
 
@@ -104,7 +107,7 @@ The RAVEN system needs 2 API keys.
 ### Step 5. Run the Scene and Use the System
 Now your scene should be ready to run with RAVEN supported! Hit the Unity "Play" button. Then hit the "Enter" key. You should see a text box appear and hear the system voice "ready for prompt entry". You can then type your command, and hit "enter" key again to sent the command to the gpt agent. A spinning circle indicates that the system is loading. Once loading finishes, the system will compile the changes into the scene and voice out textual responses.
 
-See here for a demo of the system in action in two mock scenarios:
+See here for a demo of the system in action in two mock scenarios (or see [this Youtube link](https://youtu.be/R-bvCYyHK-0?si=ulcdGhbC34M6TbWN) for a captioned version of this demo):
 
 https://github.com/user-attachments/assets/d98af928-dcbb-447b-8352-4d7972226ada
 
